@@ -16,12 +16,12 @@ function FSendMailMarketingHunghacompanyTimviec365(title,content,receiver){
         let transporter = nodemailer.createTransport({
             service:'gmail',
             auth:{
-            user:'ntd.hungha.tv365@gmail.com',
-            pass:'efslduhujymsmwou'
+            user:'uvtimviec365.hh@gmail.com',
+            pass:'xwhohtkonzdcwuyb'
             }
         });
         const mail_config = {
-            from:'ntd.hungha.tv365@gmail.com',
+            from:'uvtimviec365.hh@gmail.com',
             to:receiver,
             subject:title,
             html: `${content}`
